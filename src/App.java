@@ -4,10 +4,10 @@ public class App {
     public static void main(String[] args) throws Exception {
 
         boolean flag=true;
-        int x=5;
+        int x=10;
         while(flag){
 
-            System.out.printf("x is %d\n",x);
+            System.out.printf("x = %d\n",x);
             if(x==1){
                 flag=false;
             }
