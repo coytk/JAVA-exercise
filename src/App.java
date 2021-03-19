@@ -4,7 +4,7 @@ public class App {
     public static void main(String[] args) throws Exception {
 
         boolean flag=true;
-        int x=10;
+        int x=20;
         while(flag){
 
             System.out.printf("x = %d\n",x);
@@ -14,7 +14,7 @@ public class App {
             x=x-1;
             
         }
-        System.out.println("End");
+        System.out.println("End Test");
     }
 
 
