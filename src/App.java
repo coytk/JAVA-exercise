@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 class Dog{
     int size;
@@ -16,8 +17,16 @@ class Alarm{
     }
 
 }
-class Dogtest {
+public class App {
+
+
     public static void main(String[] args) {
+        Scanner in=new Scanner(System.in);
+        System.out.println("Please input a integer number");  
+        int innum=in.nextInt();
+        System.out.println("The number you input is "+innum);
+
+
         Dog dog=new Dog();
         Alarm alarm=new Alarm();
         dog.size=40;
@@ -40,6 +49,7 @@ class Dogtest {
                 timing=0;
             }
         }
+        in.close();
 
 
 
