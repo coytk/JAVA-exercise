@@ -20,7 +20,7 @@ class Alarm{
 public class App {
 
     public static void main(String[] args) {
-        Scanner in=new Scanner(System.in);
+        Scanner in=new Scanner(System.in);// 手动输入
         System.out.println("Please input a integer number");  
         int innum=in.nextInt();
         System.out.println("The number you input is "+innum);
